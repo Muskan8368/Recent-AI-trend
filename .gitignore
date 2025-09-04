@@ -1,0 +1,34 @@
+
+# =====================
+# Python cache & environment
+# =====================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+*.egg-info/
+
+# =====================
+# IDE/editor settings
+# =====================
+.vscode/
+*.swp
+
+# =====================
+# Model files
+# =====================
+cnn_fashion_mnist.h5
+
+# =====================
+# Temporary files
+# =====================
+temp.py
+*.log
+
+# =====================
+# OS files
+# =====================
+.DS_Store
+Thumbs.db
