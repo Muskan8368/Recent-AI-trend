@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/predict", "destination": "https://web-production-c002ac.up.railway.app/predict" },
+    { "source": "/static/(.*)", "destination": "https://web-production-c002ac.up.railway.app/static/$1" }
+  ]
+}
